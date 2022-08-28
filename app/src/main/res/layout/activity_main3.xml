@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/a3txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_our_communities"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingTop="@dimen/_22sdp"
+        android:textColor="#F5443D3D"
+        android:fontFamily="@font/glacial_indifference_bold"
+        android:textSize="@dimen/_15ssp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_380sdp"
+        android:layout_marginTop="@dimen/_50sdp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
+        android:layout_width="@dimen/_132sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        android:layout_marginStart="0dp"
+        app:cardBackgroundColor="#FDF5AC">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/depress"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d_e_p_r_e_s_s_i_o_n"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#272727"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_97k_members"
+            android:layout_marginTop="@dimen/_109sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_13sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100+ experts"
+            android:layout_marginTop="@dimen/_117sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_13sdp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="@dimen/_132sdp"
+        android:layout_height="@dimen/_210sdp"
+        android:layout_below="@id/card1"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="@dimen/_7sdp"
+        app:cardElevation="5dp"
+        app:strokeColor="#F5FAD49D"
+        app:strokeWidth="30dp"
+        android:layout_marginStart="0dp"
+        app:cardBackgroundColor="#FDDAA6">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loneliness"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/card2_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textColor="#272727"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/card2_o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="o"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="n"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_37sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="l"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_49sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="i"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_61sdp"
+            android:layout_marginStart="@dimen/_77sdp"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="n"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_73sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_85sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="s"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_97sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/card2_s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="s"
+            android:textColor="#272727"
+            android:layout_marginTop="@dimen/_109sdp"
+            android:layout_marginStart="@dimen/_69sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="377k+ members"
+            android:layout_marginTop="@dimen/_140sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_2sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100+ experts"
+            android:layout_marginTop="@dimen/_148sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_2sdp"/>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
+        android:layout_width="@dimen/_132sdp"
+        android:layout_height="@dimen/_210sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:elevation="5dp"
+        android:layout_marginStart="@dimen/_140sdp"
+        app:strokeWidth="30dp"
+        app:strokeColor="#F3B4FBB7"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#BFFFC2">
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="130dp"
+            android:src="@drawable/self"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="s"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="e"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_23sdp"
+            android:text="l"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_34sdp"
+            android:text="f"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_43sdp"
+            android:text="-"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_54sdp"
+            android:text="e"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_65sdp"
+            android:text="s"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_77sdp"
+            android:text="t"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_89sdp"
+            android:text="e"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/e4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_101sdp"
+            android:text="e"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_113sdp"
+            android:text="m"
+            android:layout_gravity="left"
+            android:textColor="#272727"
+            android:layout_marginEnd="@dimen/_66sdp"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_277k_members"
+            android:layout_marginTop="@dimen/_142sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_29sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_200_experts"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_29sdp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card4"
+        android:layout_width="@dimen/_132sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_below="@id/card3"
+        android:layout_marginTop="@dimen/_7sdp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        android:layout_marginStart="@dimen/_140sdp"
+        app:cardBackgroundColor="#C5FDF8">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sad"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a n x i e t y"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="#272727"
+            android:textAllCaps="true"
+            style="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_107k_members"
+            android:layout_marginTop="@dimen/_107sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_13sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_150_experts"
+            android:layout_marginTop="@dimen/_115sdp"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginStart="@dimen/_13sdp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card5"
+                android:layout_width="@dimen/_132sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:layout_below="@id/card2"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_marginStart="0dp"
+                app:cardBackgroundColor="#FDF5AC">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/depress"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/d_e_p_r_e_s_s_i_o_n"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#272727"
+                    android:padding="5dp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_97k_members"
+                    android:layout_marginTop="@dimen/_109sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_13sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100+ experts"
+                    android:layout_marginTop="@dimen/_117sdp"
+                    android:textSize="9sp"
+                    android:layout_marginStart="@dimen/_13sdp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card6"
+                android:layout_width="@dimen/_132sdp"
+                android:layout_height="@dimen/_210sdp"
+                android:layout_below="@id/card5"
+                app:cardCornerRadius="30dp"
+                android:layout_marginTop="@dimen/_7sdp"
+                app:cardElevation="5dp"
+                app:strokeColor="#F5FAD49D"
+                android:layout_marginBottom="@dimen/_25sdp"
+                app:strokeWidth="30dp"
+                android:layout_marginStart="00dp"
+                app:cardBackgroundColor="#FDDAA6">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/loneliness"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/card6_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L"
+                    android:textColor="#272727"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+                <TextView
+                    android:id="@+id/card6_o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="o"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="n"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="e"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_37sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_l1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="l"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_49sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="i"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_61sdp"
+                    android:layout_marginStart="@dimen/_77sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_n1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="n"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_73sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_e2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="e"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_85sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_s1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="s"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_97sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/card6_s3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="s"
+                    android:textColor="#272727"
+                    android:layout_marginTop="@dimen/_109sdp"
+                    android:layout_marginStart="@dimen/_69sdp"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="377k+ members"
+                    android:layout_marginTop="@dimen/_140sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_2sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100+ experts"
+                    android:layout_marginTop="@dimen/_148sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_2sdp"/>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card7"
+                android:layout_width="@dimen/_132sdp"
+                android:layout_height="@dimen/_210sdp"
+                android:layout_below="@id/card4"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:elevation="5dp"
+                android:layout_marginStart="@dimen/_140sdp"
+                app:strokeWidth="30dp"
+                app:strokeColor="#F3B4FBB7"
+                app:cardCornerRadius="30dp"
+                app:cardBackgroundColor="#BFFFC2">
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/self"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/s_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="s"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+                <TextView
+                    android:id="@+id/e_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:text="e"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+                <TextView
+                    android:id="@+id/l_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_23sdp"
+                    android:text="l"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+                <TextView
+                    android:id="@+id/f_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_34sdp"
+                    android:text="f"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/symbol_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_43sdp"
+                    android:text="-"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/e1_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_54sdp"
+                    android:text="e"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/s1_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:text="s"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/t_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_77sdp"
+                    android:text="t"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/e3_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_89sdp"
+                    android:text="e"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/e4_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_101sdp"
+                    android:text="e"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/m_card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_113sdp"
+                    android:text="m"
+                    android:layout_gravity="left"
+                    android:textColor="#272727"
+                    android:layout_marginEnd="@dimen/_66sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="277k+ members"
+                    android:layout_marginTop="@dimen/_142sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_29sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200+ experts"
+                    android:layout_marginTop="@dimen/_150sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_29sdp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card8"
+                android:layout_width="@dimen/_132sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:layout_below="@id/card7"
+                android:layout_marginTop="@dimen/_7sdp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_140sdp"
+                app:cardBackgroundColor="#C5FDF8">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sad"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a n x i e t y"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:textColor="#272727"
+                    android:textAllCaps="true"
+                    style="@style/ThemeOverlay.AppCompat.Dark"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="107k+ members"
+                    android:layout_marginTop="@dimen/_107sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_13sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_50_experts"
+                    android:layout_marginTop="@dimen/_115sdp"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_marginStart="@dimen/_13sdp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+</ScrollView>
+
+    <TextView
+        android:id="@+id/text_activity_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:text="@string/we_invite_you_to_get_virtually_connected_with_our_community_to_build_a_future_that_works_for_you_as_well_as_for_others_your_presence_will_definitely_accelerate_the_impact"
+        android:padding="@dimen/_10sdp"
+        android:textAlignment="center"
+        android:fontFamily="@font/glacial_indifference_regular"
+        android:layout_marginEnd="@dimen/_19sdp"
+        android:justificationMode="inter_word"
+        android:textSize="@dimen/_9ssp"
+        android:background="@drawable/design_block"
+        android:layout_marginStart="@dimen/_19sdp"/>
+
+    <TextView
+        android:id="@+id/a3txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:padding="@dimen/_8sdp"
+        android:textAlignment="center"
+        android:layout_below="@id/text_activity_3"
+        android:background="@drawable/leaf2"
+        android:text="@string/v_i_s_i_t"
+        android:layout_marginStart="@dimen/_118sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:drawableEndCompat="@drawable/ic_action_visit"
+        android:drawablePadding="@dimen/_1sdp"/>
+
+
+</RelativeLayout>

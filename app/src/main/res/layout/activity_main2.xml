@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/a2txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hey"
+        android:textSize="@dimen/_17ssp"
+        android:textColor="#302B00"
+        android:fontFamily="@font/glacial_indifference_bold"
+        android:padding="@dimen/_22sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_22sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_52sdp"
+        android:text="together we're stronger to create the future we want."
+        android:textSize="@dimen/_10ssp"
+        android:fontFamily="@font/glacial_indifference_bold"
+        android:textColor="#272300"/>
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/a2gif"
+        app:layout_constraintStart_toStartOf="@+id/a2gif"
+        tools:ignore="NotSibling"
+        android:layout_marginTop="@dimen/_65sdp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/a2gif"
+            android:layout_width="@dimen/_210sdp"
+            android:layout_height="@dimen/_210sdp"
+            android:src="@drawable/gif"
+            android:layout_marginStart="@dimen/_50sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/a2txt2"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="normal"
+        android:justificationMode="inter_word"
+        android:paddingStart="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_265sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F0272626"/>
+
+    <TextView
+        android:id="@+id/a2txt3"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a2txt2"
+        android:text="@string/give_yourself_a_nickname"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="normal"
+        android:justificationMode="inter_word"
+        android:paddingStart="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F0272626"/>
+
+    <TextView
+        android:id="@+id/a2txt4"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:text="Else, type your original name."
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="normal"
+        android:justificationMode="inter_word"
+        android:paddingStart="@dimen/_22sdp"
+        android:layout_below="@id/a2txt3"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F0272626"/>
+
+    <EditText
+        android:id="@+id/a2block"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/a2txt4"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:maxLength="8"
+        android:inputType="text"
+        android:fontFamily="@font/glacial_indifference_regular"
+        android:textSize="@dimen/_15ssp"
+        android:hint="@string/your_name_here"
+        android:textColorHint="#F1EFEF"
+        android:textColor="@color/colorPrimary"
+        android:padding="@dimen/_17sdp"
+        android:background="@drawable/rounded_edittext"/>
+
+    <Button
+        android:id="@+id/a2btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_34sdp"
+        android:layout_below="@id/a2block"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:fontFamily="@font/glacial_indifference_regular"
+        android:text="Tap to view communities"
+        android:drawableEnd="@drawable/ic_action_img2"
+        android:background="#FBF6C7"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/a2gif"
+        app:layout_constraintStart_toStartOf="@+id/a2gif"
+        tools:ignore="NotSibling"
+        android:layout_below="@id/a2btn"
+        android:layout_marginTop="@dimen/_6sdp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/a2gif2"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/gif2"
+            android:layout_marginStart="@dimen/_31sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

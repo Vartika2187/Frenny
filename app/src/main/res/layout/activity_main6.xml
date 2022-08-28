@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/a6txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1D0303"
+        android:text="Frenny's Corner..."
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:padding="35dp"/>
+
+    <ImageView
+        android:id="@+id/a6img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/a6txt1"
+        android:src="@drawable/frenny"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/a6txt2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="healthy food"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:layout_below="@id/a6img"/>
+
+    <TextView
+        android:id="@+id/a6txt3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a6txt2"
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:background="@drawable/leaf"
+        android:text="Gotcha! Now take me in..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

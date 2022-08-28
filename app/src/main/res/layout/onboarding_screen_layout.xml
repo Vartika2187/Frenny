@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1D0303"
+        android:fontFamily="@font/glacial_indifference_bold"
+        android:text="Title"
+        android:textSize="@dimen/_18ssp"
+        android:padding="@dimen/_22sdp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_below="@id/title"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/glacial_indifference_regular"
+        android:text="Description"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:textSize="@dimen/_12ssp"
+        android:justificationMode="inter_word"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:padding="@dimen/_9sdp"
+        android:layout_marginEnd="@dimen/_90sdp"
+        android:textAlignment="center"
+        android:background="@drawable/leaf"
+        android:clickable="true"
+        android:text="Text"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:focusable="true" />
+
+</RelativeLayout>

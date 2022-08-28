@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="scroll_view">500dp</dimen>
+    <dimen name="splash_gif">340dp</dimen>
+    <dimen name="text_width_main_3">300dp</dimen>
+    <dimen name="text1_width_main_3">360dp</dimen>
+    <dimen name="card_small_width">180dp</dimen>
+    <dimen name="card_small_height">170dp</dimen>
+    <dimen name="card_large_height">280dp</dimen>
+    <dimen name="card_large_width">180dp</dimen>
+
+</resources>

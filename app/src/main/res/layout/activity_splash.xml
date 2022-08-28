@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#F2FBE1EA">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/splash_constraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/a1gif5"
+        app:layout_constraintStart_toStartOf="@+id/a1gif5"
+        tools:ignore="NotSibling"
+        android:layout_marginTop="@dimen/_80sdp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/a1gif5"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="@dimen/_240sdp"
+            android:src="@drawable/splash"
+            android:layout_marginStart="@dimen/_37sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_below="@id/splash_constraint"
+        android:src="@drawable/white"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_logo"
+        android:fontFamily="@font/glacial_indifference_regular"
+        android:text="- The World Needs You"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textColor="#F5E17CAB"
+        android:gravity="center_horizontal"/>
+
+
+
+
+</RelativeLayout>

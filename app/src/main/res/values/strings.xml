@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Frenny</string>
+    <string name="welcome_to_frenny_family_we_are_so_happy_to_meet_you">Welcome to Frenny Family, We are so happy to Meet you!</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="text">Want to stay anonymous?</string>
+    <string name="hey">Amigo, buddy...</string>
+    <string name="that_s_all_for_now">Let us begin</string>
+    <string name="join_our_communities">JOIN OUR COMMUNITIES</string>
+    <string name="follow_what_you_strive_for_choose_the_communities_you_want_to_be_a_part_of_they_will_help_you_in_doing_and_getting_better_our_community_experts_will_guide_you_through_your_journey_towards_betterment">Follow what you strive for! Choose the communities you want to be a part of. They will help you in doing and getting better. Our Community experts will guide you through your journey towards betterment.</string>
+    <string name="start_the_journey">Start the journey</string>
+    <string name="we_invite_you_to_get_virtually_connected_with_our_community_to_build_a_future_that_works_for_you_as_well_as_for_others_your_presence_will_definitely_accelerate_the_impact">We invite you to get virtually connected with our community to build a future that works for you as well as for others. Your presence will definitely accelerate the impact.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_using_google">Sign in Using Google</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="register_now">Register Now!</string>
+    <string name="give_yourself_a_nickname">Give yourself a nickname.</string>
+    <string name="your_name_here">Your name here...</string>
+    <string name="v_i_s_i_t">v i s i t</string>
+    <string name="_97k_members">97k+ members</string>
+    <string name="_107k_members">107k+ members</string>
+    <string name="_150_experts">150+ experts</string>
+    <string name="d_e_p_r_e_s_s_i_o_n">D e p r e s s i o n</string>
+    <string name="_50_experts">50+ experts</string>
+    <string name="_200_experts">200+ experts</string>
+    <string name="_277k_members">277k+ members</string>
+    <string name="s_e_l_f_e_s_t_e_e_m">S e l f  e s t e e m</string>
+</resources>
